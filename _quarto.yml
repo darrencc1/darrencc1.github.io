@@ -2,19 +2,19 @@ project:
   type: website
 
 website:
-  title: "Your_Name Data Science Portfolio"
+  title: "Darren Chambers Data Science Portfolio"
   favicon: Images/favicon.png
   back-to-top-navigation: true
-  repo-url: https://github.com/your_url
+  repo-url: https://github.com/darrencc1/darrencc1.github.io
   #repo-actions: [issue] #if you want to allow others to report issues on your site uncomment this line
 
   page-footer: 
     border: true
-    left: "Your_Name 2023©"
+    left: "Darren Chambers 2023©"
     right: 
       - icon: linkedin
         href: Your_LinkedIn_URL
-
+#Nav bar is the top bar of website.
   navbar:
     background: primary
     search: true   
@@ -36,29 +36,29 @@ website:
       - text: "Competition"
         file: competition.qmd
       
-  # sidebar:
-  #   - title: "Data Cleansing"
-  #     style: "docked"
-  #     background: light
-  #     contents:
-  #       - text: "Data Cleansing"
-  #         file: cleansing.qmd
-  #       - text: "---"
-  #       - text: "Project 1"
-  #         file: Cleansing_Projects/project1.qmd
-  #       - text: "---"
-  #       - text: "Project 2"
-  #         file: Cleansing_Projects/project2.qmd
-  #       - text: "---"
-  #       - text: "Project 3"
-  #         file: Cleansing_Projects/project3.qmd
-  #       - text: "---"
-  #       - text: "Project 4"
-  #         file: Cleansing_Projects/project4.qmd
-  #       - text: "---"
-  #       - text: "Project 5"
-  #         file: Cleansing_Projects/project5.qmd
-  #       - text: "---"
+  sidebar:
+    - title: "Data Cleansing"
+      style: "docked"
+      background: light
+      contents:
+        - text: "Data Cleansing"
+          file: cleansing.qmd
+        - text: "---"
+        - text: "Project 1"
+          file: Cleansing_Projects/project1.qmd
+        - text: "---"
+        - text: "Project 2"
+          file: Cleansing_Projects/project2.qmd
+        - text: "---"
+        - text: "Project 3"
+          file: Cleansing_Projects/project3.qmd
+        - text: "---"
+        - text: "Project 4"
+          file: Cleansing_Projects/project4.qmd
+        - text: "---"
+        - text: "Project 5"
+          file: Cleansing_Projects/project5.qmd
+        - text: "---"
         #continue the pattern if you need more links
         #copy paste from title and keep it indented to sidebar to add additonal sidebar navigation for other pages
 
